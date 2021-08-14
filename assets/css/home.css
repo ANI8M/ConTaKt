@@ -1,0 +1,70 @@
+@media screen and (max-width:415px) {
+    #main{
+        width:auto;
+        margin-top: auto;
+    }
+}
+body{
+    margin: auto;
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-weight: 800px ;
+    text-align: center;
+    background-image: url(../images/abs.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    background: #000000;
+    color: white;
+    opacity: 0.7;
+    padding: 2em;
+    border-radius: 30px; 
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.details:hover{
+    background-color: silver;
+    border-radius: 30px;
+}
+.details .delete{
+    margin-top: 8px;
+    display: flex;
+    text-align: center;
+    padding: 2px;
+}
+#phone{
+    margin-left: auto;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+input{
+    padding: 8px;
+    height: 6%;
+    width: 40%;
+    border-radius: 30px;
+    font-family: sans-serif;
+}
+button{
+    height: 5%;
+    border-radius: 50%;
+    border: indigo;
+    padding: 8px;
+}
